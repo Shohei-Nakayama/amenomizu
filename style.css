@@ -1,0 +1,33 @@
+*{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+body{
+    font-size: 48px;
+}
+    
+
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.title{
+    color:deepskyblue;
+        animation: fadeInBox 1s linear;
+        }
+        
+        @keyframes fadeInBox{
+        0%{
+        opacity: 0;
+        }
+        100%{
+        opacity: 1;
+        }
+        }
+}
