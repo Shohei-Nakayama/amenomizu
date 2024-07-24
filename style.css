@@ -20,7 +20,9 @@ body{
     color: rgb(86, 85, 85);
 }
     
-
+h2{
+    color:lightsteelblue;
+}
 
 .container{
     width: 100%;
@@ -30,7 +32,7 @@ body{
 
 
 .title{
-	font-size: 60px;
+	font-size: 70px;
     background: linear-gradient(transparent 70% , #87cefa 30%);
     border-radius:30%;
     color:lightsteelblue;
