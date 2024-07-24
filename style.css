@@ -4,15 +4,25 @@
     line-height: inherit;
 }
 
+hr{
+    border: none;
+    height: 2px;
+    background:linear-gradient(90deg, rgba(37,180,10,0.1)0%,rgb(104, 210, 255)50%,rgba(255, 227, 46, 0.1)100%);
+}
+
 body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 15px;
-    color: dimgrey;
+    color: rgb(86, 85, 85);
 }
     
 
 
 .container{
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -38,7 +48,6 @@ body{
 
 nav{
     text-align:center;
-
 }
 
 nav ul{
@@ -48,13 +57,15 @@ nav ul{
 
 
 nav ul li{
-    display: inline-block;
-    width:10%;
+    display: inline;
+    justify-content: center;
+    margin:10px;
+    width:100%;
 }
 
 nav ul li a{
     text-decoration: none;
-    color:lightgrey;
+    color:rgb(104, 104, 104);
 }
 
 nav li:hover{
@@ -71,5 +82,6 @@ h2{
 
 img{
     border-radius: 4px;
+    max-width: 100%;
 }
 
