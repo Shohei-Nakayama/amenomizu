@@ -20,8 +20,9 @@ body{
     color: rgb(86, 85, 85);
 }
     
-h2{
+strong{
     color:lightsteelblue;
+    font-size: 20px;
 }
 
 .container{
@@ -30,6 +31,9 @@ h2{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
 
 .title{
 	font-size: 70px;
