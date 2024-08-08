@@ -34,7 +34,7 @@ a{
 .title{
             font-size: 70px;
             background: linear-gradient(transparent 70% , #87cefa 30%);
-            border-radius:30%;
+            border-radius:90%;
             color:lightsteelblue;
             animation: fadeInBox 2s linear;
         }
