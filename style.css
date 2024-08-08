@@ -20,10 +20,6 @@ body{
     color: rgb(86, 85, 85);
 }
     
-strong{
-    color:lightsteelblue;
-    font-size: 20px;
-}
 
 .container{
     width: 100%;
@@ -36,22 +32,44 @@ a{
 }
 
 .title{
-	font-size: 70px;
-    background: linear-gradient(transparent 70% , #87cefa 30%);
-    border-radius:30%;
-    color:lightsteelblue;
-        animation: fadeInBox 2s linear;
+            font-size: 70px;
+            background: linear-gradient(transparent 70% , #87cefa 30%);
+            border-radius:30%;
+            color:lightsteelblue;
+            animation: fadeInBox 2s linear;
         }
         
-        @keyframes fadeInBox{
-        0%{
-        opacity: 0;
+        @keyframes fadeInBox
+        {0%
+            {
+                opacity: 0;
+            }
+         100%
+            {
+                opacity: 1;
+            }
         }
-        100%{
-        opacity: 1;
-        }
-        }
-}
+@media screen and (max-width:600px)
+    {
+        .title{
+                    font-size: 40px;
+                    background: linear-gradient(transparent 70% , #87cefa 30%);
+                    border-radius:90%;
+                    color:lightsteelblue;
+                    animation: fadeInBox 2s linear;
+               }
+                
+        @keyframes fadeInBox
+                {
+                    0%{
+                        opacity: 0;
+                      }
+                    100%{
+                        opacity: 1;
+                        }
+                }
+    }
+        
 
 nav{
     text-align:center;
@@ -69,6 +87,17 @@ nav ul li{
     margin:10px;
     width:100%;
 }
+
+@media screen and (max-width:600px)
+    {
+        nav ul li
+        {
+            display: inline;
+            justify-content: center;
+            margin:1%;
+            width:100%;
+        }
+    }
 
 nav ul li a{
     text-decoration: none;
